@@ -147,6 +147,10 @@ header {
     border-right: none;
 } */
 
+#info-vantaggi{
+  
+}
+
 @media screen and (max-width: 1620px){
   #jumbo{
     height: 700px;
