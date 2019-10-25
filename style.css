@@ -181,6 +181,42 @@ header {
   width: 90px;
   height: 90px;
 }
+
+#sport{
+  background-color: #1C5EEA;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#sport h2{
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 30px auto 17px 0;
+  display: inline-block;
+}
+
+#sport img{
+  width: 100%
+}
+
+#sport a{
+  display: inline-block;
+  color: white;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 24px;
+  padding: 13px 20px;
+  font-size: 14px;
+  max-width: 220px;
+  font-weight: bold;
+}
+
+#sport a:hover{
+  opacity: .8;
+}
+
+
 @media screen and (max-width: 1620px){
   #jumbo{
     height: 700px;
