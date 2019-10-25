@@ -148,9 +148,39 @@ header {
 } */
 
 #info-vantaggi{
-  
+  background-color: #022b42;
+  text-align: center;
+  color: #fff;
+  margin-top: -4px;
 }
 
+.info{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#info-vantaggi h2{
+  display: inline-block;
+  font-size: 36px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+#info-vantaggi h3{
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#info-vantaggi p{
+  font-size: 16px;
+  margin-bottom: 70px;
+}
+
+#info-vantaggi img{
+  width: 90px;
+  height: 90px;
+}
 @media screen and (max-width: 1620px){
   #jumbo{
     height: 700px;
