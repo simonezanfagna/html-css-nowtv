@@ -192,16 +192,18 @@ header {
 #sport h2{
   font-size: 30px;
   line-height: 1.2;
-  margin: 30px auto 17px 0;
+  margin: 30px auto 17px auto;
   display: inline-block;
 }
 
 #sport img{
-  width: 100%
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #sport a{
-  display: inline-block;
+  display: block;
+  margin: auto;
   color: white;
   border: 1px solid;
   border-color: #ffffff;
@@ -213,6 +215,48 @@ header {
 }
 
 #sport a:hover{
+  opacity: .8;
+}
+
+#tv{
+  background-color: #003366;
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+
+}
+
+#tv h2{
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 30px auto 17px auto;
+  display: inline-block;
+}
+
+#tv p{
+  margin: 10px auto 20px auto;
+}
+
+#tv img{
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 17px;
+}
+
+#tv a{
+  display: block;
+  margin: auto;
+  color: white;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 24px;
+  padding: 13px 20px;
+  font-size: 14px;
+  max-width: 220px;
+  font-weight: bold;
+}
+
+#tv a:hover{
   opacity: .8;
 }
 
